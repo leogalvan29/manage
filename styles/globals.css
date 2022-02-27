@@ -13,4 +13,32 @@ a {
 
 * {
   box-sizing: border-box;
+} 
+
+html {
+  box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.contenedor{
+  width: 90%;
+  margin: 0px auto; 
+  
+}
+
+.section_1_1{
+  margin-top: 50px;
+}
+
+.fila{
+  width: 90%;
+  margin: 0px auto;
+}
+
+:root{
+  --fuente: 'Be Vietnam Pro', sans-serif;
+}
+
